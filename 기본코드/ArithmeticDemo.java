@@ -28,6 +28,6 @@ public class ArithmeticDemo {
 		System.out.println(-i); //-6
 		
 		System.out.println(System.getProperty("user.dir"));
-	}
+	} 
 
 }
