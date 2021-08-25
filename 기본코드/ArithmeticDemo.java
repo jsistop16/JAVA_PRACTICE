@@ -4,7 +4,7 @@ public class ArithmeticDemo {
 
 	public static void main(String[] args) {
 		
-		//ÀÌÇ×¿¬»êÀÚ
+		//ì´í•­ì—°ì‚°ì
 		String firststring="this is";
 		String secondstring=" java";
 		System.out.println(firststring+secondstring);
@@ -13,12 +13,12 @@ public class ArithmeticDemo {
 		float d=3.0F;
 		
 		System.out.println(a/d);
-		/* a´Â int d´Â floatÀÌ¹Ç·Î ³ª´©±â ¿¬»êÇÒ¶§
-		 * int¿¡¼­ floatÀ¸·Î ÀÚµ¿Çüº¯È¯ ÀÏ¾î³²
-		 * ±×·³ a/dÀÇ °á°ú´Â floatÀÚ·áÇüÀ¸·Î ³ª¿È
+		/* aëŠ” int dëŠ” floatì´ë¯€ë¡œ ë‚˜ëˆ„ê¸° ì—°ì‚°í• ë•Œ
+		 * intì—ì„œ floatìœ¼ë¡œ ìë™í˜•ë³€í™˜ ì¼ì–´ë‚¨
+		 * ê·¸ëŸ¼ a/dì˜ ê²°ê³¼ëŠ” floatìë£Œí˜•ìœ¼ë¡œ ë‚˜ì˜´
 		 */
 		
-		//´ÜÇ×¿¬»êÀÚ È°¿ë
+		//ë‹¨í•­ì—°ì‚°ì í™œìš©
 		int i =3;
 		i++;
 		System.out.println(i); //4
