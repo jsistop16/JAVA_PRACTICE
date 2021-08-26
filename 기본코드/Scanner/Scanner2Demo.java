@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Scanner2Demo {
 
 	public static void main(String[] args) {
-		//»ç¿ëÀÚ°¡ Å°º¸µå·Î ÀÔ·ÂÇÑ °ª ¿¹Á¦
+		//ì‚¬ìš©ìê°€ í‚¤ë³´ë“œë¡œ ì…ë ¥í•œ ê°’ ì˜ˆì œ
 		Scanner sc = new Scanner(System.in);
 		while(sc.hasNextInt()) {
-			//hasNextInt():ÀÔ·Â°ªÀÌ Á¤¼ö¸é true ¾Æ´Ï¸é false¹İÈ¯
+			//hasNextInt():ì…ë ¥ê°’ì´ ì •ìˆ˜ë©´ true ì•„ë‹ˆë©´ falseë°˜í™˜
 			System.out.println(sc.nextInt()*100);
 		}
 		sc.close();
