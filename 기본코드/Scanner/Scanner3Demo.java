@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Scanner3Demo {
 
 	public static void main(String[] args) {
-		//ÆÄÀÏ¾È¿¡ ÀúÀåµÇ¾îÀÖ´Â µ¥ÀÌÅÍ¸¦ ÀÔ·Â°ªÀ¸·Î °¡Á®¿À´Â ¿¹Á¦
-		try {//¿¹¿ÜÃ³¸®
+		//íŒŒì¼ì•ˆì— ì €ì¥ë˜ì–´ìˆëŠ” ë°ì´í„°ë¥¼ ì…ë ¥ê°’ìœ¼ë¡œ ê°€ì ¸ì˜¤ëŠ” ì˜ˆì œ
+		try {//ì˜ˆì™¸ì²˜ë¦¬
 			File file = new File("output.txt");
 			Scanner sc = new Scanner(file);
 			while(sc.hasNextInt()) {
@@ -16,7 +16,7 @@ public class Scanner3Demo {
 			}
 			sc.close();
 		}
-		catch(FileNotFoundException e) {//¿¹¿ÜÃ³¸®(¿À·ù³»¿ëÈ®ÀÎ)
+		catch(FileNotFoundException e) {//ì˜ˆì™¸ì²˜ë¦¬(ì˜¤ë¥˜ë‚´ìš©í™•ì¸)
 			e.printStackTrace();
 		}
 	}
