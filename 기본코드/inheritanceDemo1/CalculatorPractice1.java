@@ -4,11 +4,11 @@ class Calculator{
 	int left, right;
 	
 	public Calculator(int left, int right) { 
-		/*¸Å°³º¯¼ö¸¦ °®´Â »ý¼ºÀÚ
-		 * ±×·¯¹Ç·Î »ó¼ÓµÈ ÀÚ½Ä Å¬·¡½ºÀÇ °´Ã¼ »ý¼º ½Ã¿¡ ±âº»»ý¼ºÀÚ´Â ÀÚµ¿À¸·Î È£Ãâ¾ÈµÊ
-		 * ±âº»»ý¼ºÀÚ¸¦ ÀÌ Å¬·¡½º¾È¿¡ Ãß°¡ÇØ ÁÖ´ø°¡
-		 * ¾Æ´Ï¸é ÀÚ½ÄÅ¬·¡½º ¾ÈÀÇ »ý¼ºÀÚ ¾È¿¡ super()¸¦ »ý¼ºÇÏµç°¡
-		 * µÑÁß ÇÏ³ª ÇØ¾ßÇÔ
+		/*ë§¤ê°œë³€ìˆ˜ë¥¼ ê°–ëŠ” ìƒì„±ìž
+		 * ê·¸ëŸ¬ë¯€ë¡œ ìƒì†ëœ ìžì‹ í´ëž˜ìŠ¤ì˜ ê°ì²´ ìƒì„± ì‹œì— ê¸°ë³¸ìƒì„±ìžëŠ” ìžë™ìœ¼ë¡œ í˜¸ì¶œì•ˆë¨
+		 * ê¸°ë³¸ìƒì„±ìžë¥¼ ì´ í´ëž˜ìŠ¤ì•ˆì— ì¶”ê°€í•´ ì£¼ë˜ê°€
+		 * ì•„ë‹ˆë©´ ìžì‹í´ëž˜ìŠ¤ ì•ˆì˜ ìƒì„±ìž ì•ˆì— super()ë¥¼ ìƒì„±í•˜ë“ ê°€
+		 * ë‘˜ì¤‘ í•˜ë‚˜ í•´ì•¼í•¨
 		 */
 		this.left=left;
 		this.right=right;
@@ -43,6 +43,6 @@ public class CalculatorPractice1 {
 		c1.sum();
 		c1.avg();
 		c1.sub();
-	}
+	} 
 
 }
