@@ -1,5 +1,6 @@
 package org.javatutorials.progenitor;
 
+
 class Calculator{
 	int left, right;
 	
@@ -20,7 +21,6 @@ class Calculator{
 		return super.toString() + ("left"+this.left + ", right:"+this.right);
 		//toString을 오버라이딩
 		//super.toString()은 오버라이딩되기 전 toString메소드를 호출
-		
 	}
 
 }
